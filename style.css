@@ -1,0 +1,173 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    background-color: #333;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    text-align: right;
+    left: 0;
+    top: 0;
+}
+
+nav ul {
+    position: relative;
+    width: 250px;
+    margin-top: 100px;
+    margin-right: 20px;
+    float: right;
+}
+
+nav ul:hover li a {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+nav ul li a {
+    transition-duration: 0.25s;
+    display: block;
+    padding: 5px 40px;
+    
+    text-align: left;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16pt;
+    font-weight: normal;
+    line-height: 2.5em;
+    letter-spacing: 0.045em;
+}
+
+nav ul li:hover a {
+    cursor: pointer;
+    color: white;
+}
+
+.openNav {
+    transition-duration: 0.5s;
+    transition-timing-function: swing;
+    width: 50px;
+    height: 50px;
+    background-color: #ff1453;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 9;
+}
+
+.openNav:hover {
+    cursor: pointer;
+}
+
+.openNav .icon {
+    transition-duration: 0.2s;
+    position: relative;
+    width: 26px;
+    height: 2px;
+    background-color: white;
+    top: 24px;
+    left: 13px;
+}
+
+.openNav .icon:before,
+.openNav .icon:after {
+    transition-duration: 0.5s;
+    background-color: white;
+    position: absolute;
+    content: "";
+    width: 26px;
+    height: 2px;
+    left: 0px;
+}
+
+.openNav .icon:before {
+    top: -7px;
+}
+
+.openNav .icon:after {
+    top: 7px;
+}
+
+.openNav.open {
+    transform: translateX(-260px) translateY(60px);
+    -webkit-transform: translateX(-260px) translateY(60px);
+}
+
+.openNav.open .icon {
+    background-color: transparent;
+}
+
+.openNav.open .icon:before,
+.openNav.open .icon:after {
+    top: 0;
+}
+
+.openNav.open .icon:before {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.openNav.open .icon:after {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.navOpen {
+    overflow: hidden;
+}
+
+.wrapper {
+    transition-duration: 0.5s;
+    transition-timing-function: swing;
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+    
+.wrapper.open {
+    transform: translateX(-280px) translateY(80px);
+    -webkit-transform: translateX(-280px) translateY(80px);
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11pt;
+    color: #333;
+}
+
+.text {
+    background-color: #333333;
+    position: fixed;
+    padding: 16px 16px 20px 16px;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+}
+
+.typing {
+    font-size: 48pt;
+    font-family: serif;
+    font-weight: bolder;
+    line-height: 0.8em;
+    text-align: center;
+    color: white;
+}
+
+p {
+    font-family: sans-serif;
+    color: #666;
+}
+
+@media screen and (max-width: 1024px) {
+    
+}
+
+@media screen and (max-width: 480px) {
+
+}
