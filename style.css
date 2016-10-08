@@ -44,10 +44,6 @@ nav ul li:hover a {
     color: white;
 }
 
-nav ul li a .menu-link {
-    
-}
-
 .openNav {
     transition-duration: 0.5s;
     transition-timing-function: swing;
