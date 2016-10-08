@@ -62,12 +62,12 @@ nav ul li:hover a {
 
 .openNav .icon {
     transition-duration: 0.2s;
-    position: absolute;
-    width: 30px;
+    position: relative;
+    width: 26px;
     height: 2px;
     background-color: white;
     top: 24px;
-    left: 10px;
+    left: 13px;
 }
 
 .openNav .icon:before,
@@ -76,7 +76,7 @@ nav ul li:hover a {
     background-color: white;
     position: absolute;
     content: "";
-    width: 30px;
+    width: 26px;
     height: 2px;
     left: 0px;
 }
