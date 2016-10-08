@@ -128,7 +128,7 @@ nav ul li:hover a {
 .wrapper.open {
     transform: translateX(-280px) translateY(80px);
     -webkit-transform: translateX(-280px) translateY(80px);
-    box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 20px 75px rgba(0, 0, 0, 0.2);
 }
 
 .wrapper .text {
