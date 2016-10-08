@@ -114,7 +114,6 @@ nav ul li:hover a {
 }
 
 .navOpen {
-    overflow: hidden;
 }
 
 .wrapper {
@@ -162,12 +161,4 @@ a {
 p {
     font-family: sans-serif;
     color: #666;
-}
-
-@media screen and (max-width: 1024px) {
-    
-}
-
-@media screen and (max-width: 480px) {
-
 }
