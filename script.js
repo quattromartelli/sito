@@ -6,8 +6,8 @@ $(".openNav").click(function() {
 });
 
 $(function(){
-  $(".element").typed({
-    strings: ["We are hammers.", "We are power."],
+  $("#typed").typed({
+    strings: ["hammers,", "power."],
     typeSpeed: 20
   });
 });
