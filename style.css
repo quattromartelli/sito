@@ -4,7 +4,7 @@ body {
 }
 
 nav {
-    background-color: #333;
+    background-color: #11192D;
     width: 100%;
     height: 100%;
     position: fixed;
@@ -132,7 +132,7 @@ nav ul li:hover a {
 }
 
 .wrapper .text {
-    background-color: #333333;
+    background-color: #11192D;
     position: fixed;
     padding: 12px 12px 20px 12px;
     top: 50%;
@@ -162,4 +162,13 @@ a {
 p {
     font-family: sans-serif;
     color: #666;
+}
+
+@media only screen and (max-width: 960px) {
+    .wrapper .text .typing {
+        font-size: 38pt;
+   }
+    .wrapper .text {
+        padding: 12px 12px 14px 12px;
+    }
 }
