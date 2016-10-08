@@ -5,6 +5,13 @@ $(".openNav").click(function() {
   $(this).toggleClass("open");
 });
 
+$("#activePage").click(function() {
+  $("body").toggleClass("navOpen");
+  $("nav").toggleClass("open");
+  $(".wrapper").toggleClass("open");
+  $(".openNav").toggleClass("open");
+});
+
 $(function(){
   $("#typed").typed({
     strings: [
