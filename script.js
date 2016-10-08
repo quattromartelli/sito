@@ -4,3 +4,10 @@ $(".openNav").click(function() {
   $(".wrapper").toggleClass("open");
   $(this).toggleClass("open");
 });
+
+$(function(){
+  $(".element").typed({
+    strings: ["We are hammers.", "We are power."],
+    typeSpeed: 20
+  });
+});

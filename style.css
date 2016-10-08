@@ -16,18 +16,13 @@ a {
     margin-right: 20vw;
 }
 
-@media only screen and { max-width < 1024px } {
-    .text {
-        margin-left: 10vw;
-        margin-right: 10vw;
-    }
-}
-
-h1 {
+span {
     font-size: 5em;
     font-family: serif;
     font-weight: bolder;
     line-height: 0.8em;
+    text-align: center;
+    margin: auto;
 }
 
 p {
@@ -137,11 +132,40 @@ nav ul li:hover a {
     background-color: #fff;
     height: 100%;
     position: relative;
-    padding: 100px 100px;
+    padding: 100px 50px;
 }
 
 .wrapper.open {
     transform: translateX(-260px) translateY(60px);
     -webkit-transform: translateX(-260px) translateY(60px);
     box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 1024px) {
+    
+    .text {
+        margin: 10vw 6vw;
+    }
+    
+    span {
+        font-size: 4em;
+    }
+    
+}
+
+@media screen and (max-width: 480px) {
+    
+    .text {
+        margin: 0px 0px;
+    }
+    
+    .wrapper {
+        padding: 100px 50px;
+    }
+    
+    span {
+        font-size: 4em;
+        line-height: 1em;
+    }
+    
 }
