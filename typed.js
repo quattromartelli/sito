@@ -405,15 +405,15 @@
 		// typing speed
 		typeSpeed: 0,
 		// time before typing starts
-		startDelay: 0,
+		startDelay: 2000,
 		// backspacing speed
-		backSpeed: 0,
+		backSpeed: 100,
 		// shuffle the strings
 		shuffle: false,
 		// time before backspacing
-		backDelay: 500,
+		backDelay: 1000,
 		// loop
-		loop: false,
+		loop: true,
 		// false = infinite
 		loopCount: false,
 		// show cursor
