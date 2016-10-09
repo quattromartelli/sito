@@ -1,0 +1,73 @@
+/*
+    Colori
+        Primario sfondo: #11192D
+        Rosso accento: #ff1453
+*/
+
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    z-index: 2;
+}
+
+.container .card {
+    transition-duration: .3s;
+    
+    position: relative;
+    height: 400px;
+    width: 300px;
+    background-color: #fff;
+    overflow: hidden;
+    border: 0 solid rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+    z-index: 3;
+    margin: 25px;
+}
+
+.container .card:hover {
+    transform: translateY(-40px) scale(1.05);
+    -webkit-transform: translateY(-40px) scale(1.05);
+    box-shadow: 0 42px 36px rgba(255, 20, 83, 0.2);
+}
+
+.container .card .cardImg {
+    position: absolute;
+    width: 300px;
+    z-index: 4;
+}
+
+.container .card .tag {
+    position: relative;
+    top: 275px;
+    height: 100px;
+    padding: 10px 20px;
+    background-color: #fff;
+    z-index: 5;
+}
+
+.container .card .tag .name {
+    position: relative;
+    font-family: sans-serif;
+    font-size: 20pt;
+    font-weight: normal;
+    line-height: 1em;
+    color: #ff1453;
+    z-index: 6;
+}
+
+.container .card .tag .data {
+    position: relative;
+    top: 8px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10pt;
+    font-weight: normal;
+    line-height: 1.5em;
+    letter-spacing: -0.25pt;
+    color: #333;
+    z-index: 6;
+}
