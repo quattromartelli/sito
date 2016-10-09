@@ -1,3 +1,9 @@
+/*
+    Colori
+        Primario sfondo: #11192D
+        Rosso accento: #ff1453
+*/
+
 body {
     padding: 0;
     margin: 0;
@@ -19,6 +25,10 @@ nav ul {
     margin-top: 100px;
     margin-right: 20px;
     float: right;
+}
+
+nav ul li {
+    list-style: none;
 }
 
 nav ul:hover li a {
@@ -117,12 +127,12 @@ nav ul li:hover a {
 }
 
 .wrapper {
-    transition-duration: 0.5s;
-    transition-timing-function: swing;
+    position: absolute;
     background-color: #fff;
     width: 100%;
-    height: 100%;
-    position: relative;
+
+    transition-duration: 0.5s;
+    transition-timing-function: swing;
 }
     
 .wrapper.open {
@@ -131,15 +141,24 @@ nav ul li:hover a {
     box-shadow: 0 20px 75px rgba(0, 0, 0, 0.2);
 }
 
+#headerContainer {
+    position: relative;
+    height: 100vh;
+    
+    background-color: #fff;
+}
+
 .wrapper .text {
-    background-color: #11192D;
-    position: fixed;
-    padding: 12px 12px 20px 12px;
+    position: absolute;
     top: 50%;
     left: 50%;
+    padding: 12px 14px 20px 14px;
+    
+    text-align: center;
+    background-color: #11192D;
+    
     transform: translateX(-50%) translateY(-50%);
     -webkit-transform: translateX(-50%) translateY(-50%);
-    text-align: center;
 }
 
 .wrapper .text .typing {

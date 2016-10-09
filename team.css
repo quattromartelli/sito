@@ -1,0 +1,78 @@
+/*
+    Colori
+        Primario sfondo: #11192D
+        Rosso accento: #FF1453
+*/
+
+#ids {
+    position: relative;
+}
+
+.container {
+    position: relative;
+    float: left;
+    width: 75%;
+    display: inline;
+    left: 75px;
+    margin: 50px 0;
+}
+
+.email {
+    position: relative;
+    
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 10pt;
+    text-transform: uppercase;
+    letter-spacing: 1;
+    color: #FF1453;
+}
+
+.nomeCognome {
+    position: relative;
+    color: white;
+    background-color: #11192D;
+    font-family: 'serif';
+    font-weight: bold;
+    font-size: 48pt;
+    
+    top: 10px;
+    left: -15px;
+    padding: 0px 14px 6px 14px;
+}
+
+.descrizione {   
+    font-family: sans-serif;
+    font-size: 10pt;
+    color: #11192D;
+    line-height: 1.5;
+
+    position: relative;
+    width: 300px;
+    float: left;
+    top: 36px;
+}
+
+@media only screen and (max-width: 640px) {
+    
+    .container {
+        left: 25px;
+    }
+    
+    .email {
+        font-size: 8pt;
+        letter-spacing: 0;
+    }
+
+    .nomeCognome {
+        font-size: 32pt;
+    }
+
+    .descrizione {   
+        font-size: 10pt;
+        line-height: 1.5;
+        width: 275px;
+    }
+
+}
