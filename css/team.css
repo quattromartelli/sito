@@ -28,11 +28,7 @@
     letter-spacing: 1;
     color: #fff;
     background-color: #FF1453;
-    padding: 1px 4px;
-/*  
-    text-transform: uppercase;
-*/
-    
+    padding: 1px 4px;    
 }
 
 .nomeCognome {
@@ -59,6 +55,7 @@
     float: left;
     top: 24px;
 }
+
 
 
 @media only screen and (max-width: 640px) {
