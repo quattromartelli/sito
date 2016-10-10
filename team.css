@@ -90,13 +90,7 @@
     }
 
     .verticalLine {
-        position: relative;
         left: 125px;
-        width: 1px;
-        height: 50px;
-        background-color: #11192D;
-        clear: both;
-        margin-top: 20px;
     }
 
 }
