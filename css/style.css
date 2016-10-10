@@ -9,6 +9,10 @@ body {
     margin: 0;
 }
 
+.navOpen {
+    overflow: hidden;
+}
+
 nav {
     background-color: #11192D;
     width: 100%;
@@ -122,9 +126,6 @@ nav ul li:hover a {
 .openNav.open .icon:after {
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
-}
-
-.navOpen {
 }
 
 .wrapper {
