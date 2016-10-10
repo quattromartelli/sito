@@ -76,7 +76,7 @@
 }
 
 @media only screen and (max-width: 640px) {
-
+    
     #ids {
         width: 100%;
         margin: 0 auto;
@@ -103,5 +103,5 @@
     .verticalLine {
         left: 125px;
     }
-
+    
 }
