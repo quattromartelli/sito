@@ -57,6 +57,7 @@ nav ul li:hover a {
 .openNav {
     transition-duration: 0.5s;
     transition-timing-function: swing;
+    
     width: 50px;
     height: 50px;
     background-color: #ff1453;
@@ -100,8 +101,8 @@ nav ul li:hover a {
 }
 
 .openNav.open {
-    transform: translateX(-260px) translateY(60px);
-    -webkit-transform: translateX(-260px) translateY(60px);
+    transform: translateX(-240px) translateY(40px);
+    -webkit-transform: translateX(-240px) translateY(40px);
 }
 
 .openNav.open .icon {
@@ -136,8 +137,8 @@ nav ul li:hover a {
 }
     
 .wrapper.open {
-    transform: translateX(-280px) translateY(80px);
-    -webkit-transform: translateX(-280px) translateY(80px);
+    transform: translateX(-260px) translateY(60px);
+    -webkit-transform: translateX(-260px) translateY(60px);
     box-shadow: 0 20px 75px rgba(0, 0, 0, 0.2);
 }
 
