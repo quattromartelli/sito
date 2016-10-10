@@ -60,6 +60,15 @@
     top: 24px;
 }
 
+.highlighted {
+    font-family: monospace;
+    font-size: 10pt;
+    line-height: 1.5;
+    color: white;
+    background-color: #11192D;
+    padding: 0 4px 1px 4px;
+}
+
 .verticalLine {
     position: relative;
     left: 200px;
