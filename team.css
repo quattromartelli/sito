@@ -5,7 +5,8 @@
 */
 
 #ids {
-    position: relative;
+    width: 50%;
+    margin: 0 auto;
 }
 
 .container {
@@ -70,7 +71,12 @@
 }
 
 @media only screen and (max-width: 640px) {
-    
+
+    #ids {
+        width: 100%;
+        margin: 0 auto;
+    }
+
     .container {
         left: 25px;
     }
@@ -86,7 +92,7 @@
 
     .descrizione {   
         font-size: 10pt;
-        width: 275px;
+        width: 85%;
     }
 
     .verticalLine {
