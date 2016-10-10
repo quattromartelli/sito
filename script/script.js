@@ -16,9 +16,9 @@ $(function(){
   $("#typed").typed({
     strings: [
         "<span style='color: #ff1453;'>hammers</span>,",
-        "<span style='color: #ff1453;'>power</span>,",
-        "<span style='color: #ff1453;'>progress</span>,",
-        "<span style='color: #ff1453;'>knowledge</span>.",
+        "<span style='color: #ff1453;'>sharing</span>,",
+        "<span style='color: #ff1453;'>growth</span>,",
+        "<span style='color: #ff1453;'>endurance</span>.",
              ],
     typeSpeed: 50
   });
