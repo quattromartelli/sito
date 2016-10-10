@@ -129,7 +129,7 @@ nav ul li:hover a {
 }
 
 .wrapper {
-    position: absolute;
+    position: relative;
     background-color: #fff;
     width: 100%;
 
