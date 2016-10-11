@@ -83,6 +83,10 @@
     margin-top: 20px;
 }
 
+#locked {
+    opacity: 0.2;
+}
+
 @media only screen and (max-width: 800px) {
     
     #pagination {
