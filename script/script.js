@@ -23,3 +23,9 @@ $(function(){
     typeSpeed: 50
   });
 });
+
+$(document).ready(function() {
+    $('img').duotone({
+        gradientMap: '#11192D, #FF1453 50%'
+    });
+});

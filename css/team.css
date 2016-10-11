@@ -5,6 +5,7 @@
 */
 
 #ids {
+    position: relative;
     width: 50%;
     margin: 0 auto;
 }
@@ -44,6 +45,13 @@
     padding: 0px 14px 6px 14px;
 }
 
+img {
+    position: absolute;
+    float: none;
+    margin: 44px 10px 0 0;
+    margin-left: 275px;
+}
+
 .descrizione {   
     font-family: monospace;
     font-size: 10pt;
@@ -52,7 +60,7 @@
 
     position: relative;
     width: 300px;
-    float: left;
+    float: none;
     top: 24px;
 }
 
@@ -67,15 +75,15 @@
 
 .verticalLine {
     position: relative;
-    left: 200px;
     width: 1px;
+    left: 200px;
     height: 50px;
     background-color: #11192D;
     clear: both;
     margin-top: 20px;
 }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 800px) {
     
     #ids {
         width: 100%;
@@ -94,10 +102,19 @@
     .nomeCognome {
         font-size: 38pt;
     }
+    
+    img {
+        position: relative;
+        float: none;
+        margin: 34px 10px 0 0;
+        margin-left: 0;
+}
 
     .descrizione {   
         font-size: 10pt;
         width: 85%;
+        float: none;
+        top: 4px;
     }
 
     .verticalLine {
