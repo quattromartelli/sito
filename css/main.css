@@ -133,6 +133,8 @@ nav ul li:hover a {
     position: absolute;
     background-color: #fff;
     width: 100%;
+    /* Disabilita scroll orizzontale (utile per mobile) */
+    overflow-x: hidden;
 
     transition-duration: 0.5s;
     transition-timing-function: swing;
