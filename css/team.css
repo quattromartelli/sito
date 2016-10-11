@@ -4,7 +4,7 @@
         Rosso accento: #FF1453
 */
 
-#ids {
+#pagination {
     position: relative;
     width: 50%;
     margin: 0 auto;
@@ -13,13 +13,13 @@
 .container {
     position: relative;
     float: left;
-    width: 75%;
+    width: 100%;
     display: inline;
     left: 75px;
     margin: 50px 0;
 }
 
-.email {
+.subtitle {
     position: relative;
     
     font-family: monospace;
@@ -32,7 +32,7 @@
     padding: 1px 4px;    
 }
 
-.nomeCognome {
+.title {
     position: relative;
     color: white;
     background-color: #11192D;
@@ -45,14 +45,14 @@
     padding: 0px 14px 6px 14px;
 }
 
-img {
+.avatar {
     position: absolute;
     float: none;
     margin: 44px 10px 0 0;
     margin-left: 290px;
 }
 
-.descrizione {   
+.corpo {   
     font-family: monospace;
     font-size: 10pt;
     color: #11192D;
@@ -85,34 +85,34 @@ img {
 
 @media only screen and (max-width: 800px) {
     
-    #ids {
+    #pagination {
         width: 100%;
         margin: 0 auto;
     }
 
     .container {
-        left: 25px;
+        left: 30px;
     }
     
-    .email {
+    .subtitle {
         font-size: 8pt;
         letter-spacing: 0;
     }
 
-    .nomeCognome {
+    .title {
         font-size: 38pt;
     }
     
-    img {
+    .avatar {
         position: relative;
         float: none;
         margin: 34px 10px 0 0;
         margin-left: 0;
 }
 
-    .descrizione {   
+    .corpo {   
         font-size: 10pt;
-        width: 85%;
+        width: 250px;
         float: none;
         top: 4px;
     }
