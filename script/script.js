@@ -29,3 +29,4 @@ $(document).ready(function() {
         gradientMap: '#11192D, #FF1453 50%'
     });
 });
+
