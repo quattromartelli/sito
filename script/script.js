@@ -29,3 +29,11 @@ $(document).ready(function() {
         gradientMap: '#11192D, #FF1453 50%'
     });
 });
+
+$("body").on("contextmenu", "img", function(e) {
+  return false;
+});
+
+$("body").on("click", "img", function(e) { return false; });
+
+$('img').on('dragstart', function(event) { event.preventDefault(); });
