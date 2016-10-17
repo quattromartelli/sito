@@ -84,6 +84,15 @@
     white-space:nowrap;
 }
 
+.gamechoice {
+
+}
+
+.gamechoice:hover {
+    cursor: pointer;
+    background-color: #FF1453;
+}
+
 .verticalLine {
     position: relative;
     width: 1px;
