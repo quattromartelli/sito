@@ -4,6 +4,16 @@
         Rosso accento: #FF1453
 */
 
+::selection {
+    color: #FFFFFF;
+    background-color: #FF1453;
+}
+
+::-moz-selection {
+    color: #FFFFFF;
+    background-color: #FF1453;
+}
+
 #pagination {
     position: relative;
     width: 50%;
@@ -29,7 +39,7 @@
     letter-spacing: 1;
     color: #fff;
     background-color: #FF1453;
-    padding: 1px 4px;    
+    padding: 1px 4px;
 }
 
 .title {
@@ -71,6 +81,16 @@
     font-size: 10pt;
     line-height: 1.5;
     padding: 0 4px 2px 4px;
+    white-space:nowrap;
+}
+
+.gamechoice {
+
+}
+
+.gamechoice:hover {
+    cursor: pointer;
+    background-color: #FF1453;
 }
 
 .verticalLine {
@@ -85,6 +105,10 @@
 
 .locked {
     opacity: 0.2;
+}
+
+.footergame {
+    margin-bottom: 500px;
 }
 
 @media only screen and (max-width: 800px) {
@@ -124,5 +148,10 @@
     .verticalLine {
         left: 125px;
     }
+    
+    .footergame {
+        margin-bottom: 400px;
+}
+
     
 }
