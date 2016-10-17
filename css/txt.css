@@ -81,6 +81,7 @@
     font-size: 10pt;
     line-height: 1.5;
     padding: 0 4px 2px 4px;
+    white-space:nowrap;
 }
 
 .verticalLine {
