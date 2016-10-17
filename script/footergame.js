@@ -31,9 +31,9 @@ $(document).ready(function() {
     $('#idontcare3').on("click", function(){
       $('#footergamecontainer').fadeOut(200);
       $('#footer').delay(0).fadeIn(200);
-      $("html, body").animate({ 
-          scrollTop: $(document).height() 
-      }, 800);
+//      $("html, body").animate({ 
+//          scrollTop: $(document).height() 
+//      }, 800);
         
     });
     // fine footergame
