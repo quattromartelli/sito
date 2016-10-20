@@ -4,14 +4,19 @@
         Rosso accento: #FF1453
 */
 
+:root {
+    --colore-primario: #FF1453;
+    --colore-secondario: #11192D;
+}
+
 ::selection {
     color: #FFFFFF;
-    background-color: #FF1453;
+    background-color: var(--colore-primario);
 }
 
 ::-moz-selection {
     color: #FFFFFF;
-    background-color: #FF1453;
+    background-color: var(--colore-primario);
 }
 
 #pagination {
@@ -38,14 +43,14 @@
     font-size: 10pt;
     letter-spacing: 1;
     color: #fff;
-    background-color: #FF1453;
+    background-color: var(--colore-primario);
     padding: 1px 4px;
 }
 
 .title {
     position: relative;
     color: white;
-    background-color: #11192D;
+    background-color: var(--colore-secondario);
     font-family: 'serif';
     font-weight: bold;
     font-size: 48pt;
@@ -65,7 +70,7 @@
 .corpo {   
     font-family: monospace;
     font-size: 10pt;
-    color: #11192D;
+    color: var(--colore-secondario);
     line-height: 1.5;
 
     position: relative;
@@ -76,12 +81,12 @@
 
 .highlighted {
     color: white;
-    background-color: #11192D;
+    background-color: var(--colore-secondario);
     font-family: monospace;
     font-size: 10pt;
     line-height: 1.5;
     padding: 0 4px 2px 4px;
-    white-space:nowrap;
+    white-space: nowrap;
 }
 
 .gamechoice {
@@ -90,7 +95,7 @@
 
 .gamechoice:hover {
     cursor: pointer;
-    background-color: #FF1453;
+    background-color: var(--colore-primario);
 }
 
 .verticalLine {
@@ -98,17 +103,13 @@
     width: 1px;
     left: 200px;
     height: 50px;
-    background-color: #11192D;
+    background-color: var(--colore-secondario);
     clear: both;
     margin-top: 20px;
 }
 
 .locked {
     opacity: 0.2;
-}
-
-.footergame {
-    margin-bottom: 500px;
 }
 
 @media only screen and (max-width: 800px) {
@@ -148,10 +149,5 @@
     .verticalLine {
         left: 125px;
     }
-    
-    .footergame {
-        margin-bottom: 400px;
-}
-
     
 }

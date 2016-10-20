@@ -4,6 +4,12 @@
         Rosso accento: #ff1453
 */
 
+:root {
+    --colore-primario: #FF1453;
+    --colore-secondario: #11192D;
+}
+
+
 body {
     padding: 0;
     margin: 0;
@@ -15,7 +21,7 @@ body {
 }
 
 nav {
-    background-color: #11192D;
+    background-color: var(--colore-secondario);
     width: 100%;
     height: 100%;
     position: fixed;
@@ -65,7 +71,7 @@ nav ul li:hover a {
     
     width: 50px;
     height: 50px;
-    background-color: #ff1453;
+    background-color: var(--colore-primario);
     position: fixed;
     top: 20px;
     right: 20px;
@@ -163,7 +169,7 @@ nav ul li:hover a {
     padding: 12px 14px 20px 14px;
     
     text-align: center;
-    background-color: #11192D;
+    background-color: var(--colore-secondario);
     
     transform: translateX(-50%) translateY(-50%);
     -webkit-transform: translateX(-50%) translateY(-50%);
