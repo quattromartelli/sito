@@ -15,10 +15,10 @@ $("#activePage").click(function() {
 $(function(){
   $("#typed").typed({
     strings: [
-        "<span style='color: #ff1453;'>hammers</span>,",
-        "<span style='color: #ff1453;'>contact</span>,",
-        "<span style='color: #ff1453;'>conscience</span>,",
-        "<span style='color: #ff1453;'>power</span>.",
+        "<span style='color: #ff1453;'>rhythm</span>,",
+        "<span style='color: #ff1453;'>sound</span>,",
+        "<span style='color: #ff1453;'>creativity</span>,",
+        "<span style='color: #ff1453;'>rockets</span>.",
              ],
     typeSpeed: 50
   });
