@@ -219,4 +219,9 @@ footer {
         padding: 12px 12px 14px 12px;
     }
     
+    iframe {
+        width: 320;
+        height: 256;
+    }
+    
 }

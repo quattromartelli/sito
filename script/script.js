@@ -18,7 +18,7 @@ $(function(){
         "<span style='color: #ff1453;'>rhythm</span>,",
         "<span style='color: #ff1453;'>sound</span>,",
         "<span style='color: #ff1453;'>creativity</span>,",
-        "<span style='color: #ff1453;'>rockets</span>.",
+        "<span style='color: #ff1453;'>Teamrockets</span>.",
              ],
     typeSpeed: 50
   });
