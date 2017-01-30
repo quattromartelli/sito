@@ -30,6 +30,8 @@ $(document).ready(function() {
     });
 });
 
+
+
 $("body").on("contextmenu", "img", function(e) {
   return false;
 });
@@ -37,4 +39,36 @@ $("body").on("contextmenu", "img", function(e) {
 $("body").on("click", "img", function(e) { return false; });
 
 $('img').on('dragstart', function(event) { event.preventDefault(); });
+
+
+
+// INIZIO PRESA PER IL CULO!
+var rompicoglioni = 0;
+
+function cazziTuoi() {
+    
+    if (rompicoglioni == 0) {
+        document.getElementById("cazzituoi").innerHTML = "Fatti i ca**i tuoi, scemo.<br> Secondo te ti dicevo il voto, davvero?";
+    }
+    
+    if (rompicoglioni == 1) {
+        document.getElementById("cazzituoi").innerHTML = "Inutile che continui a cliccare!<br> Non lo saprai mai! hehehe xdxdxd";
+    }
+    
+    rompicoglioni++;
+    console.log(rompicoglioni);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
